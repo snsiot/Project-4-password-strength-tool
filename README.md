@@ -23,3 +23,16 @@ This tool analyzes password strength using `zxcvbn` and generates **custom wordl
 
 ```bash
 pip install -r requirements.txt
+
+Run the Tool
+python password_tool.py -p "MyPassword123" -i Alice 2024 fluffy
+
+Output
+
+Password analysis report (strength, feedback)
+Wordlist saved as custom_wordlist.txt
+
+🛡️ Ethical Disclaimer
+
+⚠️ This tool is intended only for ethical and educational use.
+❌ Do NOT use this on systems you do not own or have explicit permission to test.
